@@ -30,13 +30,15 @@
   <div class="text-center">
 <div class="video-container">
           <iframe
-            width="100%" height="500"
-            src="https://www.youtube.com/embed/WP3G9NPXmNM"
+            width="60%" height="500"
+            src="https://www.youtube.com/embed/_LT3_MS2Xvc"
             frameborder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
           ></iframe>
 </div>
+</div>
+
 
    </v-container>
 <br>
@@ -87,15 +89,12 @@
 </template>
 
 <script>
-  export default {
-    name: 'LærOmMig',
+export default {
+  name: "LærOmMig",
 
-    data () {
-      return { videoId: '_LT3_MS2Xvc',
-        items: [
-        ],
-      }
-    },
-  };
+  data() {
+    return { videoId: "_LT3_MS2Xvc", items: [] };
+  },
+};
 </script>
 
